@@ -1,0 +1,22 @@
+# Robots.txt for Kalyan Dental Clinic Website
+# Allow all search engines to crawl and index
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /assets/tmp/
+
+# Specific rules for Google
+User-agent: Googlebot
+Allow: /
+
+# Specific rules for Bing
+User-agent: Bingbot
+Allow: /
+
+# Crawl-delay to be respectful to server
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://kalyandentalclinic.com/sitemap.xml
